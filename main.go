@@ -6,25 +6,30 @@ import (
 
 func main() {
 
+	// var (Variable Name) (Variable Type) = (Variable Assignment)
+	var firstName string = "Mark Vergel"
 
-firstName := "Mark Vergel"
-lastName := "Banguis"
+	// Shortcut Declaration
+	lastName := "Banguis"
+	age := 21
+	address := "Surigao City"
+	school := "Surigao State College of Technology"
+	company := "Cauld and Clark"
+	weight := 54.50
+	height := 168
 
-age := 21
-address := "Surigao City"
-school := "Surigao State College of Technology"
-company := "Cauld and Clark"
+	fmt.Println("\nFullname: " + firstName + " " + lastName)
 
+	fmt.Println("Works at: " + company)
 
-fmt.Println("Fullname: " + firstName + " " +lastName)
+	fmt.Printf("%s %d\n", "Age:", age)
 
-fmt.Println("Works at: " + company)
+	fmt.Printf("%s %d\n", "Height:", height)
 
-fmt.Printf("%s %d\n", "Age:" , age)
+	fmt.Printf("%s %f\n", "Weight:", weight)
 
-fmt.Println("Current Adress: " + address)
+	fmt.Println("Current Adress: " + address)
 
-fmt.Println("University: " + school)
-
+	fmt.Println("University: " + school)
 
 }
